@@ -7,7 +7,7 @@
 /*============ GENERAL PAGE LAYOUT ============*/
 
 .footer {padding-top: 20px; background-color: #333; color: white; padding-bottom: 10px; }
-img.docular-small {width: 95px; height: 25px; }
+img.docular-small {width: 95px; height: 22px; }
 .clear-navbar { margin-top: 60px; }
 .body {padding-bottom:60px; position:relative;}
 .clear {clear: both;}
