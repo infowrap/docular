@@ -141,14 +141,7 @@
         // ensure page height matches view port height at minimum
         var resizeDocs = function() {
             if (angular) {
-                // on legacy devices/browser, this will suffice
-                var w = document.width;
-                var h = document.height;
-
-                if ((angular.isUndefined(w) || w == 0) || (angular.isUndefined(h) || h == 0)) {
-                  w = $(window).outerWidth(true);
-                  h = $(window).outerHeight(true);
-                }
+                var h = $(window).outerHeight(true);
 
                 // subtract the header and footer
                 $('.container.body').css('min-height', (h - 117) + 'px');
